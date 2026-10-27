@@ -1,54 +1,28 @@
-# sv
+# Infrastructure Dependency Mapper
+IDM empowers local authorities and emergency planners to move beyond static hazard maps by simulating how single-point infrastructure failures (such as flooded bridges or washed-out road segments in Kamrup) impact regional healthcare accessibility. By parsing OpenStreetMap data into a local routing graph, IDM delivers instant visibility into isolated localities, travel time delays, and automated infrastructure criticality rankings—all running locally without heavy GIS software dependencies or server roundtrips.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Installation Guide (Dev)
+The steps to cloning running this repository are as follows:
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
 ```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@1.1.1 create --template minimal --types ts --add sveltekit-adapter="adapter:node" tailwindcss="plugins:none" eslint prettier --install npm Infrastructure-Dependency-Mapper
-```
-
-## Adding features
-
-Add features to your project with `sv add`:
-
-```sh
-npx sv add
-```
-
-For example, to add Tailwind CSS:
-
-```sh
-npx sv add tailwindcss
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
+git clone https://github.com/St-Claret-Emerging-Assam-Hackathon-2026/Infrastructure-Dependency-Mapper.git
+npm install
 npm run dev -- --open
 ```
 
-## Building
+## Issues
+The issues which are to be completed are mentioned below. Kindly check the check-boxes if the issue is fixed. They are arranged in order.
+- [ ] Create Python script to generate mock OSM network JSON
+- [ ] Convert OSM JSON data to Graph
+- [ ] Implement Dijkstra shortest-path Router
+- [ ] Rendering the Map
+- [ ] Build disruption control panel
+- [ ] Criticality scoring system
 
-To create a production version of your app:
+## Contributing
+1. Don't do hacky things; write a few extra line of code if required.
+2. No emojis, non roman characters, or anything such.
+3. Naming matters; write clear and understandable names.
 
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
+## AI Use
+Even if you use AI, please use it responsibly. In case you are using AI generated code, test it thoroughly before creating a pull request. Reviewing and maintaining AI code is harder than creating it.
