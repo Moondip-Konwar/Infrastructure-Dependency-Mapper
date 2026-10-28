@@ -1,9 +1,9 @@
-#i/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Generate mock OpenStreetMap data in the Overpass API JSON format.
 """
 
-
+import pathlib
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_OUTPUT_PATH = PROJECT_ROOT / "src" / "lib" / "data" / "osm_data.json"
