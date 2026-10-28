@@ -8,6 +8,10 @@ node_modules
 /.svelte-kit
 /build
 
+# IDE Based
+.vscode/
+.kilo/
+
 # OS
 .DS_Store
 Thumbs.db
@@ -21,3 +25,10 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Testing artifacts
+temp/
+tmp/
+self-assessments/
+*.zip
+.venv
