@@ -1,0 +1,7 @@
+{
+  "seed": 7,
+  "bridge_count": 2,
+  "building_count": 1500,
+  "locality_count": 8,
+  "road_dropout_probability": 0.1
+}
