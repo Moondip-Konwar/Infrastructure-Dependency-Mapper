@@ -12,6 +12,9 @@ node_modules
 .vscode/
 .kilo/
 
+# OSM Mock Data
+src/lib/data/*.json
+
 # OS
 .DS_Store
 Thumbs.db
